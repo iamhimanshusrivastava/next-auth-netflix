@@ -48,7 +48,7 @@ export default function Home() {
         <p className="text-white text-lg">Ready to watch? Enter your email to create or restart your membership.</p>
         <div className="flex mt-4">
           <input placeholder="Email address" className="bg-white p-4 min-w-[400px]" />
-          <button onClick={() => signIn()} className="flex items-center bg-[#e50914] text-white text-xl px-8">
+          <button className="flex items-center bg-[#e50914] text-white text-xl px-8">
             Get Started <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
